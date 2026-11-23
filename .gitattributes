@@ -1,0 +1,21 @@
+# Python
+*.py linguist-language=Python
+
+# C
+*.c linguist-language=C
+
+# C++
+*.cpp linguist-language=C++
+*.cc linguist-language=C++
+*.cxx linguist-language=C++
+*.hpp linguist-language=C++
+
+# CMake
+CMakeLists.txt linguist-language=CMake
+*.cmake linguist-language=CMake
+
+# Shell scripts
+*.sh linguist-language=Shell
+*.bash linguist-language=Shell
+*.batch linguist-language=Shell
+
