@@ -1,7 +1,0 @@
-/home/megaman/dev/git-projects/CGI_Production_Structure_Tool/build/CMakeFiles/main.dir
-/home/megaman/dev/git-projects/CGI_Production_Structure_Tool/build/CMakeFiles/edit_cache.dir
-/home/megaman/dev/git-projects/CGI_Production_Structure_Tool/build/CMakeFiles/rebuild_cache.dir
-/home/megaman/dev/git-projects/CGI_Production_Structure_Tool/build/CMakeFiles/list_install_components.dir
-/home/megaman/dev/git-projects/CGI_Production_Structure_Tool/build/CMakeFiles/install.dir
-/home/megaman/dev/git-projects/CGI_Production_Structure_Tool/build/CMakeFiles/install/local.dir
-/home/megaman/dev/git-projects/CGI_Production_Structure_Tool/build/CMakeFiles/install/strip.dir
