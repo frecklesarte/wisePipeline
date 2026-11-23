@@ -7,8 +7,9 @@ set(MODULE_SOURCE "${PROJECT_SOURCE_DIR}/source/module")
 set(LIBRARIES_SOURCE "${PROJECT_SOURCE_DIR}/libs")
 set(SITE_PACKAGES_SOURCE "${PROJECT_SOURCE_DIR}/cgi-venv/lib/python3.13/site-packages")
 
-set(PYBIND11_FINDPYTHON OFF)
-find_package(pybind11 CONFIG REQUIRED)
+set(PYBIND11_FINDPYTHON ON)
+add_subdirectory("${PROJECT_SOURCE_DIR}/libs/pybind11")
 
-pybind11_add_module(main "${PROJECT_SOURCE_DIR}/source/cgi_production_tool/main.cpp")
+add_executable(main "${PROJECT_SOURCE_DIR}/source/wisePipeline/main.cpp")
+target_link_libraries(main PRIVATE pybind11::pybind11 pybind11::embed)
 install(TARGETS main DESTINATION .)
