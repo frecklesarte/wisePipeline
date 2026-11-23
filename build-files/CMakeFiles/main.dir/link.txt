@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -flto -Wl,--dependency-file=CMakeFiles/main.dir/link.d -shared  -o main.cpython-312-x86_64-linux-gnu.so CMakeFiles/main.dir/source/cgi_production_tool/main.cpp.o
