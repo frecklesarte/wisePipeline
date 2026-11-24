@@ -1,0 +1,27 @@
+# Vim swap, backup, and undo files
+[._]*.sw?
+*.sw?
+*.swo
+*.swp
+*.swn
+*~
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# CMake build output
+build/
+cmake-build-*/
+
+# Common OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
